@@ -1,0 +1,9 @@
+{
+"TOTAL_MEMORY": 209715200,
+"dataUrl": "ZagZig.data.unityweb",
+"asmCodeUrl": "ZagZig.asm.code.unityweb",
+"asmMemoryUrl": "ZagZig.asm.memory.unityweb",
+"asmFrameworkUrl": "ZagZig.asm.framework.unityweb",
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20"
+}
