@@ -1,0 +1,9 @@
+{
+"TOTAL_MEMORY": 268435456,
+"dataUrl": "TestZigZag.data.unityweb",
+"asmCodeUrl": "TestZigZag.asm.code.unityweb",
+"asmMemoryUrl": "TestZigZag.asm.memory.unityweb",
+"asmFrameworkUrl": "TestZigZag.asm.framework.unityweb",
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20"
+}
