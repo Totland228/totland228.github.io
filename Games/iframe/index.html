@@ -1,20 +1,18 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-     <meta http-equiv = "Content-Type" content = 'text/html; charset = utf-8" />
-	 <meta name = "viewport" content = "width=device-width,user-scalable=no" />
-     <title>html5 page</title>
-
+     
+<script src="https://vk.com/js/api/xd_connection.js?2"  type="text/javascript"></script>
 </head>
 
 <body>
-<script src="https://vk.com/js/api/xd_connection.js?2"  type="text/javascript"></script>
+
 
 
  <script type="text/javascript">
 
  var initGame = function(){
- VK.api('users.get',{'user_ids': '336716878'},function(data) { 
+ VK.api("users.get",{user_ids: "336716878"},function(data) { 
   
  console.log(data.response[0].first_name);
  });
