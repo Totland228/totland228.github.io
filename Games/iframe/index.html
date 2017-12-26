@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<head>
+
+<script src="https://vk.com/js/api/xd_connection.js?2"  type="text/javascript"></script>
+
+</head>
+<body>
+ <script type="text/javascript">
+ var user = { };
+ var initGame = function(){
+ VK.api('users.get',{'fields': 'photo_50'},function(data) { 
+ console.log(data);
+ });
+ };
+window.name = 'fXD';
+        VK.init(function() { 
+    initGame();	
+ 
+  }, function() { 
+     console.log('error');
+}, '5.69'); 
+</script>
+</body>
