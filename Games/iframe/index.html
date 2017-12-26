@@ -1,25 +1,28 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-
-<script src="https://vk.com/js/api/xd_connection.js?2"  type="text/javascript"></script>
+     <meta http-equiv = "Content-Type" content = 'text/html; charset = utf-8" />
+	 <meta name = "viewport" content = "width=device-width,user-scalable=no" />
+     <title>html5 page</title>
 
 </head>
+
 <body>
+<script src="https://vk.com/js/api/xd_connection.js?2"  type="text/javascript"></script>
+
+
  <script type="text/javascript">
- var user = { };
+
  var initGame = function(){
  VK.api('users.get',{'user_ids': '336716878'},function(data) { 
-  if (data.response) { 
+  
  console.log(data.response[0].first_name);
- alert(data.response[0].first_name);
- }
  });
  };
 
-        VK.init(function() { 
-		console.log('ok');
-    initGame();	
+VK.init(function() { 
+console.log('ok');
+ initGame();	
  
   }, function() { 
      console.log('error');
