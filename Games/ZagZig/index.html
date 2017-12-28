@@ -20,15 +20,13 @@
    
    var getUserName = function(){
    VK.api('users.get',{'user_ids' : '336716878'}, function(data){
-   alert(data.response[0].first_name);
+   return alert(data.response[0].first_name);
    });
    };
 window.name = 'fXD';
         VK.init(function() { 
     console.log('ok');
-	VK.api("wall.post", {"message": "Hello!"}, function (data) {
-alert("Post ID:" + data.response.post_id);
-});
+getUserName();
   }, function() { 
      console.log('error');
 }, '5.69'); 
