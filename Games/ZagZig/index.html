@@ -8,30 +8,11 @@
     <link rel="stylesheet" href="TemplateData/style.css">
     <script src="TemplateData/UnityProgress.js"></script>  
     <script src="Build/UnityLoader.js"></script>
-	
     <script>
       var gameInstance = UnityLoader.instantiate("gameContainer", "Build/ZagZig.json", {onProgress: UnityProgress});
     </script>
-	<script src="https://vk.com/js/api/xd_connection.js?2"  type="text/javascript"></script>
   </head>
   <body>
-  
-   <script type="text/javascript">
-   
-   var getUserName = function(){
-   VK.api('users.get', {'user_ids' : '336716878'}, function(data){
-   console.log(data);
-   });
-   };
-window.name = 'fXD';
-        VK.init(function() { 
-    console.log('ok');
-    getUserName();
-  }, function() { 
-     console.log('error');
-}, '5.69'); 
-      </script>
-  
     <div class="webgl-content">
       <div id="gameContainer" style="width: 960px; height: 600px"></div>
       <div class="footer">
